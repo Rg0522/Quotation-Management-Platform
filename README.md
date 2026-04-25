@@ -1,4 +1,4 @@
-# Pactle — Quote-to-Cash Quotation Management Platform
+# Quotation Management Platform
 
 A production-ready full-stack quotation management system built with React, TypeScript, and Tailwind CSS. Designed as an internal tool for manufacturers to streamline quote-to-cash workflows with role-based access control, real-time optimistic updates, and intelligent comment threading.
 
@@ -18,16 +18,6 @@ pnpm build
 ```
 
 The app will be available at `http://localhost:8080`
-
-### Demo Credentials
-
-Three pre-configured demo accounts for testing role-based features:
-
-| Role          | Email              | Password | Permissions                                 |
-| ------------- | ------------------ | -------- | ------------------------------------------- |
-| **Manager**   | manager@pactle.com | password | Approve/reject, edit fields, comment, reply |
-| **Sales Rep** | sales@pactle.com   | password | View, add comments only                     |
-| **Viewer**    | viewer@pactle.com  | password | Read-only access                            |
 
 ## Features
 
@@ -303,20 +293,6 @@ GET /quotations/:id/comments/:commentId/replies
 Returns: Reply[]
 ```
 
-### Mock Data
-
-The app comes with 7 pre-seeded quotations with realistic data:
-
-- Acme Corp (Q-101) — Pending with comments and replies
-- TechFlow Industries (Q-102) — Approved
-- BuildRight Ltd (Q-103) — Pending
-- Manufacturing Pro (Q-104) — Approved
-- Steel Dynamics (Q-105) — Rejected
-- Precision Parts (Q-106) — Pending
-- Global Logistics (Q-107) — Approved
-
-All user accounts and quotations are stored in localStorage for persistence across sessions.
-
 ## Theme & Design
 
 ### Color Palette
@@ -486,12 +462,10 @@ pnpm build
 # Output: dist/ (ready for static hosting)
 ```
 
-## Support
-
-For issues or feature requests, please open an issue or contact the development team.
 
 ---
 
 **Built with effort for manufacturers automating quote-to-cash workflows**
-#   Q u o t a t i o n - M a n a g e m e n t - P l a t f o r m  
+#   Q u o t a t i o n - M a n a g e m e n t - P l a t f o r m 
+ 
  
