@@ -63,3 +63,41 @@ Designed to streamline **quote-to-cash workflows** with role-based access contro
 ---
 
 ## 📂 Project Structure
+
+client/
+├── components/
+├── hooks/
+├── lib/
+├── pages/
+├── App.tsx
+└── global.css
+
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+
+```bash
+pnpm install
+Run Development Server
+pnpm dev
+
+App will run at:
+
+http://localhost:8080
+Build for Production
+pnpm build
+🔑 Keyboard Shortcuts
+Key	Action
+/	Focus search
+Esc	Clear input
+🧠 Architecture Overview
+API Layer (mockApi)
+        ↓
+Local State (useState)
+        ↓
+Components
+        ↓
+UI
